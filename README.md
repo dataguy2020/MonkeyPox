@@ -12,3 +12,4 @@ This data set is based off of various data sets
 
 ## USA Notes
 * Vaccine Data is only showing data from 30 jurisdictions - Alabama, Arkansas, California, Colorado, Connecticut, Florida, Georgia, Hawaii, Illinois, Iowa, Kansas, Kentucky, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, Nevada, New Mexico, New York, New York City, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, Philadelphia, Rhode Island, South Carolina
+* Total vaccine doses administered data are updated every Wednesday as soon as they are reviewed and verified
