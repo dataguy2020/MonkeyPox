@@ -9,3 +9,6 @@ This data set is based off of various data sets
 *  MDH is not reporting counts in counties with fewer than 10 cases due to patient confidentiality
 *  The Maryland Department of Health provides human monkeypox data reporting every Friday
 *  All data are preliminary and subject to change based on additional reporting. Case and vaccine data reflect Maryland residents only. MDH is continuously evaluating its data and reporting systems and will make updates as more data becomes available.
+
+## USA Notes
+* Vaccine Data is only showing data from 30 jurisdictions - Alabama, Arkansas, California, Colorado, Connecticut, Florida, Georgia, Hawaii, Illinois, Iowa, Kansas, Kentucky, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, Nevada, New Mexico, New York, New York City, North Carolina, North Dakota, Ohio, Oklahoma, Pennsylvania, Philadelphia, Rhode Island, South Carolina
