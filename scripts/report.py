@@ -17,6 +17,7 @@ monkeypox = pd.read_csv('https://raw.githubusercontent.com/dataguy2020/MonkeyPox
 monkeypox['DATE'] = [dt.datetime.strptime(x, '%m/%d/%Y')
         for x in monkeypox['DATE']]
 
+#Weekly Cases Calcualtions
 monkeypox['AlleganyWeeklyCases'] = monkeypox['Allegany'].diff()
 monkeypox['AnneArundelWeeklyCases'] = monkeypox['Anne_Arundel'].diff()
 monkeypox['BaltimoreWeeklyCases'] = monkeypox['Baltimore'].diff()
@@ -28,7 +29,19 @@ monkeypox['CecilWeeklyCases'] = monkeypox['Cecil'].diff()
 monkeypox['CharlesWeeklyCases'] = monkeypox['Charles'].diff()
 monkeypox['DorchesterWeeklyCases'] = monkeypox['Dorchester'].diff()
 monkeypox['FrederickWeklyCases'] = monkeypox['Frederick'].diff()
-
+monkeypox['GarrettWeeklyCases'] = monkeypox['Garrett'].diff()
+monkeypox['HarfordWeeklyCases'] = monkeypox['Harford'].diff()
+monkeypox['HowardWeeklyCases'] = monkeypox['Howard'].diff()
+monkeypox['KentWeeklyCases'] = monkeypox['Kent'].diff()
+monkeypox['MontgomeryWeeklyCases'] = monkeypox['Montgomery'].diff()
+monkeypox['PGWeeklyCases'] = monkeypox['Prince_Georges'].diff()
+monkeypox['QAWeeklyCases'] = monkeypox['Queen_Annes'].diff()
+monkeypox['SomsersetWeeklyCases'] = monkeypox['Somerset'].diff()
+monkeypox['StMarysWeeklyCases'] = monkeypox['St_Marys'].diff()
+monkeypox['TalbotWeeklYCases'] = monkeypox['Talbot'].diff()
+monkeypox['WashingtonWeeklyCases'] = monkeypox['Washington'].diff()
+monkeypox['WicomicoWeeklyCases'] = monkeypox['Wicomico'].diff()
+monkeypox['WorcesterWeeklyCases'] = monkey['Worcester'].diff()
 
 #Debug
 print(monkeypox.dtypes)
