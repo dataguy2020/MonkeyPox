@@ -18,6 +18,16 @@ monkeypox['DATE'] = [dt.datetime.strptime(x, '%m/%d/%Y')
         for x in monkeypox['DATE']]
 
 monkeypox['AlleganyWeeklyCases'] = monkeypox['Allegany'].diff()
+monkeypox['AnneArundelWeeklyCases'] = monkeypox['Anne_Arundel'].diff()
+monkeypox['BaltimoreWeeklyCases'] = monkeypox['Baltimore'].diff()
+monkeypox['BaltimoreCityWeeklyCases'] =  monkeypox['Baltimore_City'].diff()
+monkeypox['CalvertWeeklyCases'] = monkeypox['Calvert'].diff()
+monkeypox['CarolineWeeklyCases'] = monkeypox['Caroline'].diff()
+monkeypox['CarrollWeeklyCases'] = monkeypox['Carroll'].diff()
+monkeypox['CecilWeeklyCases'] = monkeypox['Cecil'].diff()
+monkeypox['CharlesWeeklyCases'] = monkeypox['Charles'].diff()
+monkeypox['DorchesterWeeklyCases'] = monkeypox['Dorchester'].diff()
+monkeypox['FrederickWeklyCases'] = monkeypox['Frederick'].diff()
 
 
 #Debug
