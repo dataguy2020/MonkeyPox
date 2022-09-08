@@ -41,7 +41,7 @@ monkeypox['StMarysWeeklyCases'] = monkeypox['St_Marys'].diff()
 monkeypox['TalbotWeeklYCases'] = monkeypox['Talbot'].diff()
 monkeypox['WashingtonWeeklyCases'] = monkeypox['Washington'].diff()
 monkeypox['WicomicoWeeklyCases'] = monkeypox['Wicomico'].diff()
-monkeypox['WorcesterWeeklyCases'] = monkey['Worcester'].diff()
+monkeypox['WorcesterWeeklyCases'] = monkeypox['Worcester'].diff()
 
 #Debug
 print(monkeypox.dtypes)
