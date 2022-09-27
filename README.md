@@ -16,3 +16,9 @@ This data set is based off of various data sets
 
 ## Global.Health
 * Data pulled from https://github.com/globaldothealth/monkeypox/timeseries-confirmed.csv and https://github.com/globaldothealth/monkeypox/timeseries-country-confirmed.csv
+* Data is no longer collected by Globa.Health
+
+## WHO
+* Data is pulled from Our World in data via their git repo - https://github.com/owid/monkeypox (https://github.com/owid/monkeypox/blob/main/owid-monkeypox-data.csv)
+* The data is collected hourly as reported by WHO
+* OWID has provided python scripts which will be investigated
